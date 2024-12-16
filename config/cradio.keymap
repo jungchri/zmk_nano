@@ -16,10 +16,10 @@
 
         layer_1 {
             bindings = <
-&kp ESC  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp BSPC
-&trans   &trans  &trans  &trans  &trans    &kp H   &kp J   &kp K   &kp L   &trans
-&trans   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                         &trans  &tog 0    &trans  &trans
+&kp ESC  &kp F1  &kp F2  &kp F3   &kp F4    &kp F5     &kp F6   &kp F7     &kp F8   &kp BSPC
+&kp N1   &kp N2  &kp N3  &kp N4   &kp N5    &kp N6     &kp N7   &kp N8     &kp N9   &kp N0
+&kp Z    &kp X   &kp C   &kp V    &kp B     &kp N      &kp M    &kp COMMA  &kp DOT  &kp FSLH
+                         &kp TAB  &tog 0    &kp SPACE  &kp RET
             >;
         };
     };
@@ -30,6 +30,11 @@
         mod1 {
             if-layers = <0>;
             then-layer = <1>;
+        };
+
+        mod0 {
+            if-layers = <1>;
+            then-layer = <0>;
         };
     };
 };
