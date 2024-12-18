@@ -29,25 +29,16 @@
 &kp Q  &kp W  &kp E  &kp R  &kp T    &kp Y      &kp U    &kp I      &kp O    &kp P
 &kp A  &kp S  &kp D  &kp F  &kp G    &kp H      &kp J    &kp K      &kp L    &kp SEMI
 &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N      &kp M    &kp COMMA  &kp DOT  &kp FSLH
-                     &mo 1  &mo 2    &kp SPACE  &kp RET
+                     &mo 1  &mo 1    &kp SPACE  &kp RET
             >;
         };
 
         l1 {
             bindings = <
-&kp ESCAPE        &kp N7        &kp N8        &kp N9        &none     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS      &kp EQUAL         &kp BACKSPACE
-&kp LEFT_SHIFT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none     &kp LEFT_ARROW        &kp DOWN_ARROW         &kp UP_ARROW   &kp RIGHT         &kp ENTER
-&kp LEFT_CONTROL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp RSHIFT
-                                              &mo 1         &mo 2     &kp SPACE             &kp RET
-            >;
-        };
-
-        i3 {
-            bindings = <
-&kp ESCAPE        &kp N7        &kp N8        &kp N9        &none     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS      &kp EQUAL         &kp BACKSPACE
-&kp LEFT_SHIFT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none     &kp LEFT_ARROW        &kp DOWN_ARROW         &kp UP_ARROW   &kp RIGHT         &kp ENTER
-&kp LEFT_CONTROL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp RSHIFT
-                                              &mo 1         &mo 2     &kp SPACE             &kp RET
+&kp ESCAPE        &kp N7        &kp N8        &kp N9        &none           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS      &kp EQUAL         &kp BACKSPACE
+&kp LEFT_SHIFT    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_WIN    &kp LEFT_ARROW        &kp DOWN_ARROW         &kp UP_ARROW   &kp RIGHT         &kp LSHFT
+&kp LEFT_CONTROL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp RSHIFT
+                                              &mo 1         &mo 1           &kp SPACE             &kp RET
             >;
         };
     };
