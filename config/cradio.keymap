@@ -32,7 +32,12 @@
 
         bootloader {
             bindings = <&bootloader>;
-            key-positions = <9 19 29 20 10 0>;
+            key-positions = <20 10 0>;
+        };
+
+        bootloader2 {
+            bindings = <&bootloader>;
+            key-positions = <9 19 29>;
         };
     };
 
